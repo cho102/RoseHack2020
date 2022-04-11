@@ -1,0 +1,175 @@
+html{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: rgb(192, 175, 255);
+
+    text-align: center;
+}
+
+
+.box{
+background-color: rgb(57, 197, 207);
+}
+
+.submit
+{
+    font-size: 30px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    margin: 50px ;
+    padding: 20px;
+    border: solid; 
+    background-color: inherit;
+}
+
+.fieldname
+{
+    text-align: center;
+    width: 300px;
+    background-color: transparent;
+    margin: 5px 10px;
+    height: 30px;
+    border: none;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    font-size: 30px;
+}
+
+.fieldamt
+{
+    text-align: center;
+    width: 100px;
+    background-color: transparent;
+    margin: 5px 10px;
+    height: 30px;
+    border: none;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.form
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.buttonclick{
+    
+    border-radius: 30px;
+
+}
+
+.title
+{
+    text-shadow: -10px 0 black, 0 10px black, 10px 0 black, 0 -10px black;
+    text-align: center;
+    font-size: 175px;
+    color: rgb(245, 201, 137);
+}
+
+.start
+{
+    text-align: center;
+    font-size: 50px;
+    border-radius: 100px;
+    text-align: center;
+    margin: 50px ;
+    padding: 10px;
+    border: solid; 
+    background-color: inherit;
+    margin: 30px;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.inputform
+{
+    text-align: center;
+    /* margin: 100px 350px; */
+    /* padding: 30px; */
+
+}
+
+.intro
+{
+    background-color: rgb(198, 182, 250);
+    color: white;
+    margin: 50px;
+    padding: 50px;
+    font-size: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.beginning
+{
+    background-color: rgb(198, 182, 250);
+    color: white;
+    margin: 50px;
+    padding: 50px;
+    font-size: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.resultsForm{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.formbody
+{
+    background-color: rgb(198, 182, 250);
+    border-radius: 30px;
+    margin: 0px 100px;
+}
+.cols-2 button {
+
+    text-align: center;
+    font-size: 40px;
+    background-color: inherit; 
+    border: 1px solid white; 
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; 
+  }
+  
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:hover {
+    background-color: inherit;
+  }
+
+
+.cols-2{
+    display: flex;
+}
+.cols-2 > div{
+    width: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

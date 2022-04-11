@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Crazy Rich Corgi </title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./result.js"></script>
+</head>
+
+<body onload="load();">
+    <h1 class="title">Crazy Rich Corgi</h1>
+    <div class="beginning"><p>To keep the corgi happy and alive, feed him more money. 
+        But if you take away money, you'll starve him to death!</p>
+        <p>(⌯˃̶᷄ ﹏ ˂̶᷄⌯)ﾟ</p>
+
+        <div id = "moneyBalance" ></div>
+        <img id="image" src="plaincorgi.png" alt="" class = "center">
+        
+
+        <div class="r">
+    
+
+                <div class="cols-2">
+                    <div>
+                        <div class="resultsForm"> <input id = "update" class="fieldamt" type="number" min = "1" name="name"></div>
+                        <button onclick="updateMoney(true)">Feed Me</button>
+                    </div>
+                    <div>
+                        <div class="resultsForm"><input id = "update2" class="fieldamt" type="number" max = "-1" name="iMoney"></div>
+                        <button onclick="updateMoney(false)">Starve Me</buttonon>
+                    </div>
+                </div>
+                
+        </div>
+
+</body>
+</html>
